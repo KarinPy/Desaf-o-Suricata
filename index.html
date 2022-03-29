@@ -24,7 +24,6 @@
             min-height: 75rem;
             padding-top: 4.5rem;
             font-family: 'Raleway', sans-serif;
-
           }
           
         .logo {
@@ -32,10 +31,18 @@
             max-height: 53px;
         }
         .container {
-            max-width: 1260px;
+            max-width: 1044px;
+        }
+        .containercont {
+            max-width: 920px;
         }
 
-        .navlink {
+        .conttitl{
+            font-weight: 700;
+            font-size: 16px;
+        }
+        
+        .navlink .contdesc {
             font-weight: 400;
             font-size: 16px;
         }
@@ -45,7 +52,6 @@
             font-weight: 700;
             font-size: 300%;
         }
-
 
         .bd-placeholder-img {
           font-size: 1.125rem;
@@ -68,6 +74,7 @@
             background-color: #17a2b8;
             font-size: 220%;
             color: white;
+            font-weight: 700;
         }
         footer {
             background-color: #e83e8c;
@@ -88,12 +95,10 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-
           <div   class="collapse navbar-collapse " id="navbarCollapse" >
-            
             <ul class="navbar-nav  mb-2 mb-md-0  ms-auto me-4 " >
-              <li class="nav-item ">
-                <a class="nav-link active " aria-current="page" href="#">Inicio</a>
+              <li class="nav-item ms-3">
+                <a class="nav-link active " href="#">Inicio</a>
               </li>
               <li class="nav-item  ms-3">
                 <a class="nav-link active" href="#">Productos</a>
@@ -102,7 +107,6 @@
                 <a class="nav-link active"  href="#">Contacto</a>
               </li>
             </ul>
-       
           </div>
         </div>
       </nav>
@@ -114,8 +118,8 @@
 
         <h1>Nuestros Productos</h1>
 
-
-        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <center>
+        <div class="containercont   row row-cols-1 row-cols-md-3 mb-3 text-center">
             <div class="col">
               <div class="card mb-4 rounded-3 shadow-sm">
                 <div class="card-header py-3">
@@ -166,7 +170,10 @@
                 </div>
               </div>
             </div>
-          </div>
+        </div>
+    </center>
+
+
 
         <section class="icons-section">
           <div class="container otro d-none d-sm-block d-sm-none d-md-block">
@@ -179,6 +186,7 @@
                     <i class="fa-brands fa-cc-diners-club fa-lg"></i>
                     <i class="fa-brands fa-cc-paypal fa-lg"></i>
                     <i class="fa-brands fa-cc-discover fa-lg"></i>
+
                 </p>
             </div>
           </div>

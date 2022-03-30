@@ -1,0 +1,90 @@
+          
+        body {
+            min-height: 75rem;
+            padding-top: 4.5rem;
+            font-family: 'Raleway', sans-serif;
+          }
+          
+        .logo {
+            max-width: 132px;
+            max-height: 53px;
+        }
+        .container {
+            max-width: 1044px;
+
+        }
+        .containercont {
+            max-width: 920px;
+
+        }
+
+        .conttitl{
+            font-weight: 700;
+            font-size: 17px;
+        }
+        
+        .navlink .contdesc {
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        .contdesc2{
+            font-weight: 400;
+            font-size: 11px;
+        }
+        
+        h1 {
+            color: #707070;
+            font-weight: 700;
+            font-size: 300%;
+        }
+
+        .fotos {
+            max-width: 248px;
+            max-height: 132px;
+            min-width: 238px;
+            
+        }
+        .col {
+            max-width: 248px;
+            margin-right:auto;
+        }
+        .colss {
+            max-width: 248px;
+            min-width: 238px;
+        }
+
+        .left {
+            text-align: left;
+        }
+
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+
+        .navbar {
+            background-color: #e83e8c;
+        }
+        .otro {
+            background-color: #17a2b8;
+            font-size: 220%;
+            color: white;
+            font-weight: 700;
+        }
+        footer {
+            background-color: #e83e8c;
+        }
+        .imgf {
+            max-height: 100.45px;
+        }
+        

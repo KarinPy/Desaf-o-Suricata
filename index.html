@@ -13,172 +13,363 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 
 
+
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbar-fixed/">
+
+
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbar-fixed/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            min-height: 75rem;
+            padding-top: 4.5rem;
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        .logo {
+            max-width: 132px;
+            max-height: 53px;
+        }
+        
+        .container {
+            max-width: 1044px;
+        }
+        
+        .containercont {
+            max-width: 920px;
+        }
+        
+        .conttitl {
+            font-weight: 700;
+            font-size: 16px;
+        }
+        
+        .navlink .contdesc {
+            font-weight: 400;
+            font-size: 16px;
+        }
+        
+        h1 {
+            color: #707070;
+            font-weight: 700;
+            font-size: 300%;
+        }
+        
+        .fotos {
+            max-width: 248px;
+            max-height: 132px;
+            min-width: 238px;
+        }
+        
+        .left {
+            text-align: left;
+        }
+        
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+        
+        .navbar {
+            background-color: #e83e8c;
+        }
+        
+        .otro {
+            background-color: #17a2b8;
+            font-size: 220%;
+            color: white;
+            font-weight: 700;
+        }
+        
+        footer {
+            background-color: #e83e8c;
+        }
+        
+        .imgf {
+            max-height: 100.45px;
+        }
+    </style>
+    >>>>>>> d17bf61fd1419772e1d694832ed9dfe8d1273fa5
 
     <title>Suricata</title>
 </head>
 
 <body>
 
+
     <!-- barra de navegación-->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-        <div class="container-fluid container">
-            <a class="navbar-brand" href="#"><img class="logo ms-3" src="assets/img/logo.png"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top ">
+
+            <div class="container-fluid container">
+                <a class="navbar-brand" href="#"><img class="logo ms-3" src="assets/img/logo.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-            <div class="collapse navbar-collapse " id="navbarCollapse">
-                <ul class="navbar-nav  mb-2 mb-md-0  ms-auto me-4 ">
-                    <li class="nav-item ms-3">
-                        <a class="nav-link active " href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item  ms-3">
-                        <a class="nav-link active" href="#">Productos</a>
-                    </li>
-                    <li class="nav-item  ms-3">
-                        <a class="nav-link active" href="#">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-
-
-    <!-- parte de las comidas-->
-    <main class="container pt-5 text-center">
-
-        <h1 class="pb-3 text-center">Nuestros Productos</h1>
-
-        <center>
-            <div class="containercont row row-cols-1 row-cols-md-3 mb-3 mx-3">
-                <div class="col  ">
-                    <div class=" mb-4 list-group ">
-                        <img class="fotos rectangled-3 pt-0" src="assets/img/colaciones.jpg">
-                        <div class="new list-group-item pb-0 colss ">
-                            <p class="conttitl left pt-3">Colaciones</p>
-                            <p class="contdesc left">Sed ut perspiciatis unde omnis iste natus error sit</p>
-                        </div>
-                        <div class="new list-group-item contdesc2 left colss">Morbi leo risus</div>
-                        <div class="new list-group-item contdesc2 left colss">Porta ac consectetur ac</div>
-                        <div class="new list-group-item contdesc2 left contdesc colss"><a href="#" style="text-decoration: none;">Ver más</a> <a href="#" style="margin-left: 10%; text-decoration: none;">Comprar</a></div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class=" mb-4 list-group ">
-                        <img class="fotos rectangled-3 pt-0 " src="assets/img/desayunos.jpg">
-                        <div class="new list-group-item pb-0 colss ">
-
-                            <p class="conttitl left pt-3">Desayunos</p>
-                            <p class="contdesc left ">Iste natus error sit voluptatem accusantium</p>
-                        </div>
-                        <div class="new list-group-item contdesc2 left colss">Morbi leo risus</div>
-                        <div class="new list-group-item contdesc2 left colss">Porta ac consectetur ac</div>
-                        <div class="new list-group-item contdesc2 left contdesc colss"><a href="#" style="text-decoration: none;">Ver más</a> <a href="#" style="margin-left: 10%; text-decoration: none;">Comprar</a></div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class=" mb-4 list-group ">
-                        <img class="fotos rectangled-3 pt-0 " src="assets/img/bebidas.jpg">
-                        <div class="new list-group-item pb-0 colss ">
-
-                            <p class="conttitl left pt-3">Bebidas</p>
-                            <p class="contdesc left ">Doloremque laudantium, totam rem aperiam, eaque</p>
-                        </div>
-                        <div class="new list-group-item contdesc2 left colss">Morbi leo risus</div>
-                        <div class="new list-group-item contdesc2 left colss">Porta ac consectetur ac</div>
-                        <div class="new list-group-item contdesc2 left contdesc colss"><a href="#" style="text-decoration: none;">Ver más</a> <a href="#" style="margin-left: 10%; text-decoration: none;">Comprar</a></div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class=" mb-4 list-group ">
-                        <img class="fotos rectangled-3 pt-0 " src="assets/img/verduras.jpg">
-                        <div class="new list-group-item pb-0 colss ">
-
-                            <p class="conttitl left pt-4">Verduras</p>
-                            <p class="contdesc left ">Ipsa quae ab illo inventore veritatis et quasi architecto</p>
-                        </div>
-                        <div class="new list-group-item contdesc2 left colss">Morbi leo risus</div>
-                        <div class="new list-group-item contdesc2 left colss">Porta ac consectetur ac</div>
-                        <div class="new list-group-item contdesc2 left contdesc colss"><a href="#" style="text-decoration: none;">Ver más</a> <a href="#" style="margin-left: 10%; text-decoration: none;">Comprar</a></div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class=" mb-4 list-group ">
-                        <img class="fotos rectangled-3 pt-0 " src="assets/img/dulces.jpg">
-                        <div class="new list-group-item pb-0 colss ">
-
-                            <p class="conttitl left pt-3">Dulces</p>
-                            <p class="contdesc left ">Some quick example text to build on the card title and</p>
-                        </div>
-                        <div class="new list-group-item contdesc2 left colss">Morbi leo risus</div>
-                        <div class="new list-group-item contdesc2 left colss">Porta ac consectetur ac</div>
-                        <div class="new list-group-item contdesc2 left contdesc colss"><a href="#" style="text-decoration: none;">Ver más</a> <a href="#" style="margin-left: 10%; text-decoration: none;">Comprar</a></div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class=" mb-4 list-group ">
-                        <img class="fotos rectangled-3 pt-0 " src="assets/img/empanadas.jpg">
-                        <div class="new list-group-item pb-0 colss ">
-
-                            <p class="conttitl left pt-3">Empanadas</p>
-                            <p class="contdesc left ">Some quick example text to build on the card title and</p>
-                        </div>
-                        <div class="new list-group-item contdesc2 left colss">Morbi leo risus</div>
-                        <div class="new list-group-item contdesc2 left colss">Porta ac consectetur ac</div>
-                        <div class="new list-group-item contdesc2 left contdesc colss"><a href="#" style="text-decoration: none;">Ver más</a> <a href="#" style="margin-left: 10%; text-decoration: none;">Comprar</a></div>
-                    </div>
-                </div>
-
-
-        </center>
-        </div>
-
-
-
-        <!-- iconos-->
-        <section class="icons-section">
-            <div class="container text-center otro d-none d-sm-block d-sm-none d-md-block">
-                <div class="pt-5 pb-4">
-                    <p> Ahora aceptamos
-
-                        <i class="fa-brands fa-cc-mastercard fa-lg"></i>
-                        <i class="fa-brands fa-cc-visa fa-lg"></i>
-                        <i class="fa-brands fa-cc-amex fa-lg"></i>
-                        <i class="fa-brands fa-cc-diners-club fa-lg"></i>
-                        <i class="fa-brands fa-cc-paypal fa-lg"></i>
-                        <i class="fa-brands fa-cc-discover fa-lg"></i>
-
-                    </p>
+                <div class="collapse navbar-collapse " id="navbarCollapse">
+                    <ul class="navbar-nav  mb-2 mb-md-0  ms-auto me-4 ">
+                        <li class="nav-item ms-3">
+                            <a class="nav-link active " href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item  ms-3">
+                            <a class="nav-link active" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item  ms-3">
+                            <a class="nav-link active" href="#">Contacto</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>
+        </nav>
+
+        <!-- parte de las comidas-->
+        <main class="container pt-5 text-center">
+
+            <h1 class="pb-3 text-center">Nuestros Productos</h1>
+
+            <center>
+                <div class="containercont row row-cols-1 row-cols-md-3 mb-3 mx-3">
+                    <div class="col  ">
+                        <div class=" mb-4 list-group ">
+                            <img class="fotos rectangled-3 pt-0" src="assets/img/colaciones.jpg">
+                            <div class="new list-group-item pb-0 colss ">
+                                <p class="conttitl left pt-3">Colaciones</p>
+                                <p class="contdesc left">Sed ut perspiciatis unde omnis iste natus error sit</p>
+                            </div>
+                            <div class="new list-group-item contdesc2 left colss">Morbi leo risus</div>
+                            <div class="new list-group-item contdesc2 left colss">Porta ac consectetur ac</div>
+                            <div class="new list-group-item contdesc2 left contdesc colss"><a href="#" style="text-decoration: none;">Ver más</a> <a href="#" style="margin-left: 10%; text-decoration: none;">Comprar</a></div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class=" mb-4 list-group ">
+                            <img class="fotos rectangled-3 pt-0 " src="assets/img/desayunos.jpg">
+                            <div class="new list-group-item pb-0 colss ">
+
+                                <p class="conttitl left pt-3">Desayunos</p>
+                                <p class="contdesc left ">Iste natus error sit voluptatem accusantium</p>
+                            </div>
+                            <div class="new list-group-item contdesc2 left colss">Morbi leo risus</div>
+                            <div class="new list-group-item contdesc2 left colss">Porta ac consectetur ac</div>
+                            <div class="new list-group-item contdesc2 left contdesc colss"><a href="#" style="text-decoration: none;">Ver más</a> <a href="#" style="margin-left: 10%; text-decoration: none;">Comprar</a></div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class=" mb-4 list-group ">
+                            <img class="fotos rectangled-3 pt-0 " src="assets/img/bebidas.jpg">
+                            <div class="new list-group-item pb-0 colss ">
+
+                                <p class="conttitl left pt-3">Bebidas</p>
+                                <p class="contdesc left ">Doloremque laudantium, totam rem aperiam, eaque</p>
+                            </div>
+                            <div class="new list-group-item contdesc2 left colss">Morbi leo risus</div>
+                            <div class="new list-group-item contdesc2 left colss">Porta ac consectetur ac</div>
+                            <div class="new list-group-item contdesc2 left contdesc colss"><a href="#" style="text-decoration: none;">Ver más</a> <a href="#" style="margin-left: 10%; text-decoration: none;">Comprar</a></div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class=" mb-4 list-group ">
+                            <img class="fotos rectangled-3 pt-0 " src="assets/img/verduras.jpg">
+                            <div class="new list-group-item pb-0 colss ">
+
+                                <p class="conttitl left pt-4">Verduras</p>
+                                <p class="contdesc left ">Ipsa quae ab illo inventore veritatis et quasi architecto</p>
+                            </div>
+                            <div class="new list-group-item contdesc2 left colss">Morbi leo risus</div>
+                            <div class="new list-group-item contdesc2 left colss">Porta ac consectetur ac</div>
+                            <div class="new list-group-item contdesc2 left contdesc colss"><a href="#" style="text-decoration: none;">Ver más</a> <a href="#" style="margin-left: 10%; text-decoration: none;">Comprar</a></div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class=" mb-4 list-group ">
+                            <img class="fotos rectangled-3 pt-0 " src="assets/img/dulces.jpg">
+                            <div class="new list-group-item pb-0 colss ">
+
+                                <p class="conttitl left pt-3">Dulces</p>
+                                <p class="contdesc left ">Some quick example text to build on the card title and</p>
+                            </div>
+                            <div class="new list-group-item contdesc2 left colss">Morbi leo risus</div>
+                            <div class="new list-group-item contdesc2 left colss">Porta ac consectetur ac</div>
+                            <div class="new list-group-item contdesc2 left contdesc colss"><a href="#" style="text-decoration: none;">Ver más</a> <a href="#" style="margin-left: 10%; text-decoration: none;">Comprar</a></div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class=" mb-4 list-group ">
+                            <img class="fotos rectangled-3 pt-0 " src="assets/img/empanadas.jpg">
+                            <div class="new list-group-item pb-0 colss ">
+
+                                <p class="conttitl left pt-3">Empanadas</p>
+                                <p class="contdesc left ">Some quick example text to build on the card title and</p>
+                            </div>
+                            <div class="new list-group-item contdesc2 left colss">Morbi leo risus</div>
+                            <div class="new list-group-item contdesc2 left colss">Porta ac consectetur ac</div>
+                            <div class="new list-group-item contdesc2 left contdesc colss"><a href="#" style="text-decoration: none;">Ver más</a> <a href="#" style="margin-left: 10%; text-decoration: none;">Comprar</a></div>
+                        </div>
+                    </div>
 
 
-        <!--pie -->
-        <footer>
-            <div class="container text-center">
-
-                <img class="imgf mt-4 mb-4" src="assets/img/logo-footer.png">
-
+            </center>
             </div>
-        </footer>
-    </main>
+
+
+            <main class="container text-center pt-5">
+
+                <h1>Nuestros Productos</h1>
+                <br><br>
+                <center>
+                    <div class="containercont   row row-cols-1 row-cols-md-3 mb-3 text-center">
+                        <div class="col">
+                            <div class=" mb-4 list-group ">
+                                <div class="new list-group-item pb-0">
+                                    <img class="fotos rectangled-3 pb-0" src="assets/img/colaciones.jpg">
+                                    <p class="conttitl left pt-4">Colaciones</p>
+                                    <p class="contdesc left ">Sed ut perspiciatis unde omnis iste natus error sit</p>
+                                </div>
+                                <div class="new list-group-item contdesc left">Morbi leo risus</div>
+                                <div class="new list-group-item contdesc left">Porta ac consectetur ac</div>
+                                <div class="new list-group-item contdesc left"><a href="#">Ver más</a>&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">Comprar</a></div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class=" mb-4 list-group ">
+                                <div class="new list-group-item pb-0">
+                                    <img class="fotos rectangled-3 pt-0" src="assets/img/desayunos.jpg">
+                                    <p class="conttitl left pt-4">Desayunos</p>
+                                    <p class="contdesc left ">Iste natus error sit voluptatem accusantium</p>
+                                </div>
+                                <div class="new list-group-item contdesc left">Morbi leo risus</div>
+                                <div class="new list-group-item contdesc left">Porta ac consectetur ac</div>
+                                <div class="new list-group-item contdesc left"><a href="#">Ver más</a>&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">Comprar</a></div>
+
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class=" mb-4 list-group ">
+                                <div class="new list-group-item pb-0">
+                                    <img class="fotos rectangled-3 pt-0" src="assets/img/bebidas.jpg">
+                                    <p class="conttitl left pt-4">Bebidas</p>
+                                    <p class="contdesc left ">Doloremque laudantium, totam rem aperiam, eaque</p>
+                                </div>
+                                <div class="new list-group-item contdesc left">Morbi leo risus</div>
+                                <div class="new list-group-item contdesc left">Porta ac consectetur ac</div>
+                                <div class="new list-group-item contdesc left"><a href="#">Ver más</a>&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">Comprar</a></div>
+
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class=" mb-4 list-group ">
+                                <div class="new list-group-item pb-0">
+                                    <img class="fotos rectangled-3 pt-0" src="assets/img/verduras.jpg">
+                                    <p class="conttitl left pt-4">Verduras</p>
+                                    <p class="contdesc left ">Ipsa quae ab illo inventore veritatis et quasi architecto</p>
+                                </div>
+                                <div class="new list-group-item contdesc left">Morbi leo risus</div>
+                                <div class="new list-group-item contdesc left">Porta ac consectetur ac</div>
+                                <div class="new list-group-item contdesc left"><a href="#">Ver más</a>&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">Comprar</a></div>
+
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class=" mb-4 list-group ">
+                                <div class="new list-group-item pb-0">
+                                    <img class="fotos rectangled-3 pt-0" src="assets/img/dulces.jpg">
+                                    <p class="conttitl left pt-4">Dulces</p>
+                                    <p class="contdesc left ">Some quick example text to build on the card title and</p>
+                                </div>
+                                <div class="new list-group-item contdesc left">Morbi leo risus</div>
+                                <div class="new list-group-item contdesc left">Porta ac consectetur ac</div>
+                                <div class="new list-group-item contdesc left"><a href="#">Ver más</a>&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">Comprar</a></div>
+
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class=" mb-4 list-group ">
+                                <div class="new list-group-item pb-0">
+                                    <img class="fotos rectangled-3 pt-0" src="assets/img/empanadas.jpg">
+                                    <p class="conttitl left pt-4">Empanadas</p>
+                                    <p class="contdesc left ">Some quick example text to build on the card title and</p>
+                                </div>
+                                <div class="new list-group-item contdesc left">Morbi leo risus</div>
+                                <div class="new list-group-item contdesc left">Porta ac consectetur ac</div>
+                                <div class="new list-group-item contdesc left"><a href="#">Ver más</a>&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">Comprar</a></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </center>
+
+
+                <!-- iconos-->
+                <section class="icons-section">
+
+                    <div class="container text-center otro d-none d-sm-block d-sm-none d-md-block">
+
+                        <div class="container otro d-none d-sm-block d-sm-none d-md-block">
+
+                            <div class="pt-5 pb-4">
+                                <p> Ahora aceptamos
+
+                                    <i class="fa-brands fa-cc-mastercard fa-lg"></i>
+                                    <i class="fa-brands fa-cc-visa fa-lg"></i>
+                                    <i class="fa-brands fa-cc-amex fa-lg"></i>
+                                    <i class="fa-brands fa-cc-diners-club fa-lg"></i>
+                                    <i class="fa-brands fa-cc-paypal fa-lg"></i>
+                                    <i class="fa-brands fa-cc-discover fa-lg"></i>
+
+                                </p>
+                            </div>
+                        </div>
+                </section>
+
+
+                <!--pie -->
+                <footer>
+                    <div class="container text-center">
+
+
+                        <footer>
+                            <div class="container">
+
+
+                                <img class="imgf mt-4 mb-4" src="assets/img/logo-footer.png">
+
+                            </div>
+                        </footer>
+            </main>
 
 
 
 
 
-    <!-- javascript-->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+            <!-- javascript-->
+            <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

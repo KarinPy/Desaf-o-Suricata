@@ -7,8 +7,7 @@ disponible en el LMS correspondiente a la unidad.
 requerimientos solicitados y sube el .zip en el LMS. (Opcional)
 ● Desarrollo desafío:
 ○ El desafío se debe desarrollar en parejas.
-○ Para la realización del desafío necesitarás apoyarte del archivo Apoyo Desafío
-- Suricata.
+○ Para la realización del desafío necesitarás apoyarte del archivo Apoyo Desafío-Suricata.
 
 Habilidades a evaluar
 ● Implementar adecuadamente Bootstrap en un proyecto web, utilizando el CDN y los

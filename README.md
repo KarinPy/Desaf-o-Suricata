@@ -1,10 +1,11 @@
-# Desaf-o-Suricata
-
 Desafío - Suricata
+
 ● Para realizar este desafío debes haber estudiado previamente todo el material
 disponible en el LMS correspondiente a la unidad.
+
 ● Una vez terminado el desafío, comprime la carpeta que contiene el desarrollo de los
 requerimientos solicitados y sube el .zip en el LMS. (Opcional)
+
 ● Desarrollo desafío:
 ○ El desafío se debe desarrollar en parejas.
 ○ Para la realización del desafío necesitarás apoyarte del archivo Apoyo Desafío-Suricata.
@@ -43,8 +44,6 @@ Colores:
 ● cc-diners-club.
 ● cc-paypal.
 ● cc-discover.
-
-Guíate por la siguiente maqueta:
 
 ¡Importante! En este desafío existe una sección que desaparece visualmente en
 la versión mobile. Para lograr esto deberás ocupar una combinación de clases
